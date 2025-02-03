@@ -8,9 +8,9 @@ int main() {
     int a , b;
     scanf("%d %d", &a, &b);
     if (a > b) {
-        Printf("True/n");
+        printf("True/n");
     } else {
-        Printf("False/n");
+        printf("False/n");
     }
 
     return 0;
