@@ -7,7 +7,8 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if (a & 1<<31);
+    int msb_mask = 1v<< 31;
+    if (a & msb_mask);
         printf("Set");
     else 
         printf("Not Set");
