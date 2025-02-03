@@ -7,10 +7,10 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    int msb_mask = 1 << 31;
-    if (a & msb_mask);
+    if (a & (1 <<31)){
         printf("Set");
-    else 
+    } else {
         printf("Not Set");
+    }
     return 0;
 }
