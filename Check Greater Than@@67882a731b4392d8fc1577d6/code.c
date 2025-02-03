@@ -10,7 +10,7 @@ int main() {
     if (a > b) {
         Printf("True/n");
     } else {
-        Printf("False/n")
+        Printf("False/n");
     }
 
     return 0;
