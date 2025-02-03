@@ -8,7 +8,7 @@ int main() {
     int a;
     scanf("%d", &a);
     if (a>0) {
-        printf("Psitive")
+        printf("Psitive");
     } else if (a<0) {
         printf("Negative");
     } else {
